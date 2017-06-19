@@ -186,12 +186,8 @@ class WalletForm extends React.Component {
           </Col>}
         {this.props.wallet && this.state.showBalance &&
           <ShowWallet showClose={true} closeWallet={this.closeWallet}/>}
-<<<<<<< HEAD
+        </Row>
       </Panel>
-=======
-       </Row>
-      </Grid>
->>>>>>> issue #42 added showAccessButton: true to onDrop req password
     );
   }
 }
